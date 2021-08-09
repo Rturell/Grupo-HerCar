@@ -53,16 +53,17 @@ h3 {
 }
 
 .btn-mio {
-    border: 1px solid white;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: 1px solid #A4195F;
+    background-color: #A4195F;
     color: white;
+    padding: 0.5rem 2rem 0.5rem 2rem;
     border-radius: 0px;
 }
 
 .btn-mio:hover {
     border: 1px solid white;
     background-color: white;
-    color: black;
+    color: #A4195F;
 }
 
 
