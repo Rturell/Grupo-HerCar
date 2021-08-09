@@ -1,0 +1,195 @@
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/* Nav*/
+
+.navbar-mio {
+    background-color: white;
+}
+
+
+/*Hero*/
+
+
+#hero {
+    padding: 11rem 0rem 11rem 0rem;
+    background-image: url(../img/Hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#hero h1 {
+    font-weight: 800;
+    color: white;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.btn-mio {
+    border: 1px solid white;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: white;
+    border-radius: 0px;
+}
+
+.btn-mio:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+
+/*About*/
+
+#about {
+    background-color: white;
+    padding: 4rem 0rem 0rem 0rem;
+    color: rgb(78, 78, 78);
+}
+
+
+/*Alianzas*/
+
+#alianzas {
+    padding: 0rem 0rem 4rem 0rem;
+    color: rgb(78, 78, 78);
+}
+
+.card-text a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+
+.card-text a:hover {
+    color: #A4195F;
+}
+
+
+
+
+/* CONTACTO*/
+
+#contact {
+    background: rgb(164, 25, 95);
+    background: linear-gradient(90deg, rgba(164, 25, 95, 1) 0%, rgba(42, 39, 97, 1) 63%, rgba(23, 138, 178, 1) 100%);
+    color: white;
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+#contact button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 0px;
+}
+
+#contact button:hover {
+    background-color: white;
+    color: black;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*REDES*/
+
+#redes {
+    background-color: #A4195F;
+    padding: 1rem 0rem 1rem 0rem;
+    color: white;
+}
+
+#redes a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*LEGALES*/
+
+#legales {
+    color: rgb(78, 78, 78);
+    font-size: 1rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+#legales a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+
+
+/* Media Queries */
+
+@media (min-width: 320px) {
+    form {
+        width: 100%;
+        margin: auto;
+    }
+
+    .hero_text {
+        width: 100%;
+    }
+
+    .about_text {
+        width: 100%;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    form {
+        width: 60%;
+        margin: auto;
+    }
+
+    .hero_text {
+        width: 50%;
+    }
+
+    .about_text {
+        width: 70%;
+    }
+}
