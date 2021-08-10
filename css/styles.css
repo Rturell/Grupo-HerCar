@@ -135,6 +135,10 @@ h3 {
     color: white;
 }
 
+#redes p {
+    margin: 0px;
+}
+
 
 /*LEGALES*/
 
@@ -151,6 +155,7 @@ h3 {
 
 
 
+
 /* Media Queries */
 
 @media (min-width: 320px) {
@@ -160,10 +165,6 @@ h3 {
     }
 
     .hero_text {
-        width: 100%;
-    }
-
-    .about_text {
         width: 100%;
     }
 
@@ -190,7 +191,4 @@ h3 {
         width: 50%;
     }
 
-    .about_text {
-        width: 70%;
-    }
 }
