@@ -7,6 +7,7 @@ body {
     background-color: white;
     font-family: 'Roboto',
         sans-serif;
+        margin-top: 97px;
 }
 
 h1 {
@@ -71,7 +72,7 @@ h3 {
 
 #about {
     background-color: white;
-    padding: 4rem 0rem 0rem 0rem;
+    padding: 8rem 0rem 0rem 0rem;
     color: rgb(78, 78, 78);
 }
 
@@ -79,7 +80,7 @@ h3 {
 /*Alianzas*/
 
 #alianzas {
-    padding: 0rem 0rem 4rem 0rem;
+    padding: 4rem 0rem 4rem 0rem;
     color: rgb(78, 78, 78);
 }
 
@@ -102,7 +103,7 @@ h3 {
     background: rgb(164, 25, 95);
     background: linear-gradient(90deg, rgba(164, 25, 95, 1) 0%, rgba(42, 39, 97, 1) 63%, rgba(23, 138, 178, 1) 100%);
     color: white;
-    padding: 4rem 0rem 4rem 0rem;
+    padding: 6rem 0rem 6rem 0rem;
 }
 
 #contact button {
