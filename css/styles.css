@@ -35,7 +35,7 @@ h3 {
 
 #hero {
     padding: 9rem 0rem 9rem 0rem;
-    background-image: url(../img/Hero.png);
+    background-image: url(../img/Hero2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,12 +45,14 @@ h3 {
 #hero h1 {
     font-weight: 800;
     color: white;
+
 }
 
 #hero p {
     font-size: 1rem;
     letter-spacing: 0.1em;
     color: white;
+
 }
 
 .btn-mio {
